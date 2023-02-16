@@ -1,0 +1,55 @@
+$color_1: #155724;
+$color_2: #f0fff3;
+$background-color_1: #f0fff3;
+$background-color_2: #155724;
+
+.content {
+  padding-top: 10px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+
+/* Success syling */
+.example-button-row {
+	button {
+		margin-right: 8px;
+	}
+	a {
+		margin-right: 8px;
+	}
+}
+.mat-button.mat-success {
+	color: $color_1;
+	&:hover {
+		background-color: $background-color_1;
+	}
+}
+.mat-stroked-button.mat-success {
+	color: $color_1;
+	&:hover {
+		background-color: $background-color_1;
+	}
+}
+.mat-raised-button.mat-success {
+	color: $color_2;
+	background-color: $background-color_2;
+}
+.mat-flat-button.mat-success {
+	color: $color_2;
+	background-color: $background-color_2;
+}
+.mat-fab.mat-success {
+	color: $color_2;
+	background-color: $background-color_2;
+}
+.mat-mini-fab.mat-success {
+	color: $color_2;
+	background-color: $background-color_2;
+}
+.mat-icon-button.mat-success {
+	color: $color_1;
+}
