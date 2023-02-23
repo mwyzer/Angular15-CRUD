@@ -19,6 +19,8 @@ import { EmpAddEditComponent } from './emp-add-edit/emp-add-edit.component';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatSelectModule } from '@angular/material/select';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,6 +41,8 @@ import { MatSelectModule } from '@angular/material/select';
     // MomentDateModule,
     MatRadioModule,
     MatSelectModule,
+    ReactiveFormsModule,
+    HttpClientModule,
 
   ],
   providers: [],

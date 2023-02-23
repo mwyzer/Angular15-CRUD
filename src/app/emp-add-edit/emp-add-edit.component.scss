@@ -16,8 +16,16 @@ $background-color_2: #155724;
   }
 }
 
+.action {
+  padding: 0px 25px 20px;
+  button {
+    flex: 1;
+  }
+}
+
 .dialog{
   flex-direction: row;
+
 }
 
 
